@@ -1,0 +1,41 @@
+body {
+	background-color: #e2bdc1;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #dc3545;
+	color: #eed0d0;
+	padding: 20px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 36px;
+	margin: 0;
+}
+
+main {
+	background-image: url("../img/fundo-coracao.png.png"); /* caminho para a imagem de fundo em forma de coração */
+    background-position: center;
+	background-repeat: no-repeat; /* desativa a repetição da imagem de fundo */
+    background-size: 47% auto; /* ajusta o tamanho da imagem de fundo para a largura do elemento main */
+    padding: 20px; /* espaçamento interno do elemento main */
+	margin: 10px;
+	text-align: center;
+	
+}
+
+img {
+	display: block;
+	margin: 20px auto;
+	max-width: 100%;
+}
+
+p {
+	font-size: 18px;
+	line-height: 0.5;
+	margin: 0 0 20px;
+}
